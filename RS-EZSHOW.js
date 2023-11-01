@@ -64,7 +64,16 @@ function initializeSlideshow() {
     
    }
 
-
+   const show2Button = document.getElementById('downToFacts2');
+    show2Button.addEventListener('click', function() {
+        btnSounds.play('ArrowFAST');
+        setTimeout(() => {
+        SHOW = 1;
+        initializeSlideshow();
+        },800 );
+    });
+    initializeSlideshow();
+});   
 
 // Slides Area
 // ******************************************
