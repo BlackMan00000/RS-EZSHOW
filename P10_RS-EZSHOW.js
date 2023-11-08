@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/slides/SoilGraph2_cut.jpg',
-                'https://matt.moses.name/slides/SoilGraph3_cut.jpg',
-                'https://matt.moses.name/slides/SoilGraph4_cut.jpg',
+                'https://matt.moses.name/slides/TempMap.png',
+                'https://matt.moses.name/slides/TempGraph1.png',
+                'https://matt.moses.name/slides/TempGraph2.png',
                 // Add more image paths for slideshow 1
             ],
             texts: [
