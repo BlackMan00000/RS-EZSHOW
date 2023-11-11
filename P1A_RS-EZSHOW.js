@@ -86,7 +86,7 @@ const button3 = document.getElementById("q3btn");
 const button4 = document.getElementById("q4btn");
 const slider = document.querySelector(".rs-slider");
 const imagesArray1 = ["https://matt.moses.name/sites/P1A/slides/P1AB_Set1A.png", "https://matt.moses.name/sites/P1A/slides/P1AB_Set1B.png", "https://matt.moses.name/sites/P1A/slides/P1AB_Set1C.png"];
-const imagesArray2 = ["https://matt.moses.name/sites/P1A/slides/P1AB_Set2A.png", "https://matt.moses.name/sites/P1A/slides/P1AB_Set2A.png"];
+const imagesArray2 = ["https://matt.moses.name/sites/P1A/slides/P1AB_Set2A.png", "https://matt.moses.name/sites/P1A/slides/P1AB_Set2B.png"];
 const imagesArray3 = ["https://matt.moses.name/sites/P1A/slides/P1AB_Set3A.png", "https://matt.moses.name/sites/P1A/slides/P1AB_Set3B.png"];
 const imagesArray4 = ["https://matt.moses.name/sites/P1A/slides/P1AB_Set4A.png", "https://matt.moses.name/sites/P1A/slides/P1AB_Set4B.png"];
 
