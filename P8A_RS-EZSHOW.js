@@ -86,8 +86,8 @@ const button3 = document.getElementById("q3btn");
 const button4 = document.getElementById("q4btn");
 const slider = document.querySelector(".rs-slider");
 const imagesArray1 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set1A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set1B.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set1C.png"];
-const imagesArray2 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set2A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set2B.png"];
-const imagesArray3 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set3A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set3B.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set3C.png"];
+const imagesArray2 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set2A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set2B.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set2C.png"];
+const imagesArray3 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set3A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set3B.png"];
 const imagesArray4 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set4A.png"];
 
 let previousImages = [];
