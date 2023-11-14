@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/slides/TempMap.png',
-                'https://matt.moses.name/slides/TempGraph1.png',
+                'https://matt.moses.name/sites/P14/facts1/P14_facts1_A.jpg',
+                'https://matt.moses.name/sites/P14/facts1/P14_facts1_B.jpg',
                 'https://matt.moses.name/slides/TempGraph2.png',
                 // Add more image paths for slideshow 1
             ],
             texts: [
-                 "The African savannahs feature vast grasslands with sporadic trees, thriving in well-drained, nutrient-rich soils. However, overgrazing, deforestation, and poor land management can lead to desertification, turning fertile land into barren desert. A healthy soil ecosystem comprises: 1) Organic matter providing nutrients; 2) Soil microbes, including bacteria and fungi, supporting decomposition and nutrient cycling; and 3) Soil structure, ensuring water retention and root penetration.",
-                "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
+                 "Markhor, Ibex, and Argali inhabit some of the most hostile and rugged terrains on Earth. They dwell in steep, rocky mountains and arid, sparse landscapes where food and water are scarce. To survive, these animals have adapted remarkably. They possess strong, nimble hooves for expertly navigating the treacherous cliffs and rocky crags. Their keen sense of balance allows them to access sparse vegetation on nearly vertical surfaces. Additionally, they have evolved to have efficient digestive systems to extract maximum nutrients from the limited foliage available. Their thick coats provide insulation against harsh weather, and they often migrate seasonally in search of food.",
+                "The relationship between local peoples and mountain animals such as the Argali and Ibex is often shaped by a blend of respect, necessity, and cultural significance. These majestic animals, adapted to rugged mountain terrains, are crucial to the ecosystem and hold a special place in the culture and traditions of local communities. For some, they are a source of sustenance, providing food and materials. For others, they are revered symbols, featuring in folklore and spiritual beliefs. This intricate relationship balances the needs of human survival with the reverence for nature, highlighting the deep connection between humans and their natural environment.",
                 "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
         // Add more texts
             ]
