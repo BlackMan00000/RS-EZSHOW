@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
             images: [
                 'https://matt.moses.name/sites/P1A/facts1/P1A_facts1_A.jpg',
                 'https://matt.moses.name/sites/P1A/facts1/P1A_facts1_B.jpg',
-                'https://matt.moses.name/slides/TempGraph2.png',
+                'https://matt.moses.name/sites/P1A/facts1/P1A_facts1_C.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
                  "The Jurassic period, spanning from about 201 to 145 million years ago, was a time when land animals, particularly dinosaurs, reached enormous sizes. This was possible due to several factors:\n \n Abundant Oxygen: Higher oxygen levels in the atmosphere during the Jurassic period supported larger body sizes.\n Abundant Food Sources: Lush vegetation and a rich ecosystem provided ample food.",
                 "The supercontinent Pangaea, which had formed during the late Paleozoic, began to break apart during the Jurassic. This breakup led to the formation of the northern continent Laurasia and the southern continent Gondwana. The Jurassic landscape was dominated by vast and lush coniferous forests, ferns, and cycads. Large dinosaurs roamed these lands, including the well-known Brachiosaurus and Stegosaurus. The climate was generally warm and humid, with no polar ice caps, leading to higher sea levels and creating shallow seas that flooded parts of the continents. This period also saw the rise of the first birds and continued evolution of reptiles and early mammals. The Jurassic's flora and fauna were diverse, shaping an Earth vastly different from today's.",
-                "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
+                "During the Jurassic period,the diversity of tree species experienced significant evolution. This era saw the dominance of gymnosperms, particularly conifers, which were widespread and varied. Cycads, resembling modern palm trees but not closely related, were also common in this period, thriving in the warm climate. Additionally, ginkgoes and seed ferns were present. The Jurassic period marked a critical stage in plant evolution, setting the stage for the later dominance of flowering plants (angiosperms) in the Cretaceous period. This period's vegetation was crucial in shaping the ecosystems that supported large dinosaurs.",
         // Add more texts
             ]
         },
