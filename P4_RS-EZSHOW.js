@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/slides/TempMap.png',
+                'https://matt.moses.name/sites/P4/facts1/P4_facts1_A.jpg',
                 'https://matt.moses.name/slides/TempGraph1.png',
                 'https://matt.moses.name/slides/TempGraph2.png',
                 // Add more image paths for slideshow 1
             ],
             texts: [
-                 "The African savannahs feature vast grasslands with sporadic trees, thriving in well-drained, nutrient-rich soils. However, overgrazing, deforestation, and poor land management can lead to desertification, turning fertile land into barren desert. A healthy soil ecosystem comprises: 1) Organic matter providing nutrients; 2) Soil microbes, including bacteria and fungi, supporting decomposition and nutrient cycling; and 3) Soil structure, ensuring water retention and root penetration.",
+                 "The Ice Age, also known as the Pleistocene Epoch, was not uniformly cold and frozen everywhere. It was characterized by significant glaciations, where large parts of the Earth, particularly in the Northern Hemisphere, were covered by ice sheets. However, not all regions experienced the same degree of coldness or ice coverage. Areas closer to the equator remained relatively warmer and ice-free, sustaining a variety of plant and animal life. The climate varied significantly across different regions and periods, with some experiencing milder conditions. Moreover, there were interglacial periods within the Ice Age when temperatures were relatively warmer, leading to the retreat of ice sheets. This variation in climate and ice coverage indicates that the Ice Age was a complex and dynamic period, rather than a uniformly frozen and cold epoch.",
                 "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
                 "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
         // Add more texts
