@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/slides/TempMap.png',
+                'https://matt.moses.name/sites/P12/facts1/P12_facts1_A.jpg',
                 'https://matt.moses.name/slides/TempGraph1.png',
                 'https://matt.moses.name/slides/TempGraph2.png',
                 // Add more image paths for slideshow 1
             ],
             texts: [
-                 "The African savannahs feature vast grasslands with sporadic trees, thriving in well-drained, nutrient-rich soils. However, overgrazing, deforestation, and poor land management can lead to desertification, turning fertile land into barren desert. A healthy soil ecosystem comprises: 1) Organic matter providing nutrients; 2) Soil microbes, including bacteria and fungi, supporting decomposition and nutrient cycling; and 3) Soil structure, ensuring water retention and root penetration.",
+                 "Water buffaloes were introduced to Australia in the 19th century for meat and transportation. They thrived in the Northern Territory's wetlands, particularly in the Top End region, including Kakadu National Park. Their presence has been both beneficial and harmful. Positively, they have contributed to local economies through meat and tourism. However, they have also caused significant environmental damage, such as soil compaction, erosion, and altering native vegetation, impacting the ecosystem balance. Management programs have been implemented to control their numbers and mitigate environmental impacts, balancing their presence with the health of Australia's unique ecosystems.",
                 "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
                 "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
         // Add more texts
