@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/slides/TempMap.png',
-                'https://matt.moses.name/slides/TempGraph1.png',
+                'https://matt.moses.name/sites/P2A/facts1/P2A_facts1_A.jpg',
+                'https://matt.moses.name/sites/P2A/facts1/P2A_facts1_B.jpg',
                 'https://matt.moses.name/slides/TempGraph2.png',
                 // Add more image paths for slideshow 1
             ],
             texts: [
-                 "The African savannahs feature vast grasslands with sporadic trees, thriving in well-drained, nutrient-rich soils. However, overgrazing, deforestation, and poor land management can lead to desertification, turning fertile land into barren desert. A healthy soil ecosystem comprises: 1) Organic matter providing nutrients; 2) Soil microbes, including bacteria and fungi, supporting decomposition and nutrient cycling; and 3) Soil structure, ensuring water retention and root penetration.",
-                "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
+                "The Cretaceous period, spanning from about 145 to 66 million years ago, witnessed a remarkable diversity in flora. This era saw the first significant appearance of flowering plants (angiosperms), which rapidly diversified and became dominant in many ecosystems. These angiosperms included ancestors of many modern flowers, displaying a variety of shapes, sizes, and colors. Alongside these, gymnosperms, such as conifers, cycads, and ginkgoes, continued to thrive, though their dominance was less pronounced compared to the Jurassic period. Ferns and horsetails were also common, often forming dense undergrowth in forested areas. This period's plant life supported a rich array of herbivorous dinosaurs and other creatures, significantly shaping the ecosystems of the time. The Cretaceous flora was highly varied, with regional differences influenced by the climate, which ranged from tropical to temperate. This period's end, marked by a mass extinction event, saw significant changes in plant life, with some groups diminishing significantly or going extinct, paving the way for the dominance of flowering plants in the ensuing Cenozoic Era.",
+                "Volcanism played a significant role in the demise of the dinosaurs through massive eruptions in the Deccan Traps, a large volcanic province in modern-day India. These eruptions, occurring roughly 66 million years ago, coincided with the Cretaceous-Paleogene (K-Pg) extinction event. The vast quantities of lava, ash, and gas, especially sulfur and carbon dioxide, released into the atmosphere had profound climatic impacts. This led to substantial cooling, acid rain, and disrupted ecosystems, weakening dinosaur populations and making them more vulnerable to other catastrophic events, like the Chicxulub asteroid impact.",
                 "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
         // Add more texts
             ]
