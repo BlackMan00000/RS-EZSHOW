@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/slides/TempMap.png',
+                'https://matt.moses.name/sites/P5/facts1/P5_facts1_A.jpg',
                 'https://matt.moses.name/slides/TempGraph1.png',
                 'https://matt.moses.name/slides/TempGraph2.png',
                 // Add more image paths for slideshow 1
             ],
             texts: [
-                 "The African savannahs feature vast grasslands with sporadic trees, thriving in well-drained, nutrient-rich soils. However, overgrazing, deforestation, and poor land management can lead to desertification, turning fertile land into barren desert. A healthy soil ecosystem comprises: 1) Organic matter providing nutrients; 2) Soil microbes, including bacteria and fungi, supporting decomposition and nutrient cycling; and 3) Soil structure, ensuring water retention and root penetration.",
+                "The world map during the last Ice Age was significantly different from today's. Most notably, sea levels were about 120 meters lower, exposing more land, such as a land bridge between Siberia and Alaska, and larger coastlines. Large areas of North America, Europe, and Asia were covered by thick ice sheets. This ice coverage altered landscapes, with some regions becoming uninhabitable. Additionally, the distribution of flora and fauna was vastly different due to the colder climate, with many species adapted to these conditions that are not found in the same regions today.",
                 "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
                 "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
         // Add more texts
