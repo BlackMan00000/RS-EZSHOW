@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'facts1/P8A_facts1_A.jpg',
-                'facts1/P8A_facts1_B.jpg',
-                'facts1/P8A_facts1_C.jpg',
+                'https://matt.moses.name/sites/P8A/facts1/P8A_facts1_A.jpg',
+                'https://matt.moses.name/sites/P8A/facts1/P8A_facts1_B.jpg',
+                'https://matt.moses.name/sites/P8A/facts1/P8A_facts1_C.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
@@ -85,10 +85,10 @@ const button2 = document.getElementById("q2btn");
 const button3 = document.getElementById("q3btn");
 const button4 = document.getElementById("q4btn");
 const slider = document.querySelector(".rs-slider");
-const imagesArray1 = ["slides/P8A_Set1A.png", "slides/P8A_Set1B.png", "slides/P8A_Set1C.png"];
-const imagesArray2 = ["slides/P8A_Set2A.png", "slides/P8A_Set2B.png", "slides/P8A_Set2C.png"];
-const imagesArray3 = ["slides/P8A_Set3A.png", "slides/P8A_Set3B.png"];
-const imagesArray4 = ["slides/P8A_Set4A.png"];
+const imagesArray1 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set1A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set1B.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set1C.png"];
+const imagesArray2 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set2A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set2B.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set2C.png"];
+const imagesArray3 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set3A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set3B.png"];
+const imagesArray4 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set4A.png"];
 
 let previousImages = [];
 
