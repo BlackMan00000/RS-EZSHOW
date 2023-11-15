@@ -4,16 +4,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/sites/P5/facts1/P5_facts1_A.jpg',
-                'https://matt.moses.name/slides/TempGraph1.png',
-                'https://matt.moses.name/slides/TempGraph2.png',
+                'facts1/P5_facts1_A.jpg',
+                'facts1/P5_facts1_B.jpg',
+                'facts1/P5_facts1_C.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
                 "The world map during the last Ice Age was significantly different from today's. Most notably, sea levels were about 120 meters lower, exposing more land, such as a land bridge between Siberia and Alaska, and larger coastlines. Large areas of North America, Europe, and Asia were covered by thick ice sheets. This ice coverage altered landscapes, with some regions becoming uninhabitable. Additionally, the distribution of flora and fauna was vastly different due to the colder climate, with many species adapted to these conditions that are not found in the same regions today.",
-                "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
-                "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
-        // Add more texts
+                "Throughout Earth's history, there have been several major ice ages. The Huronian, around 2.4 to 2.1 billion years ago, was likely the first, coinciding with the Great Oxygenation Event. The Cryogenian (720 to 635 million years ago) is known for the Snowball Earth hypothesis. The Andean-Saharan (450 to 420 million years ago) and the Karoo Ice Age (360 to 260 million years ago) were characterized by significant glaciations in Gondwana. Lastly, the Last Ice Age, part of the Quaternary glaciation, began around 2.58 million years ago, with its most recent glacial period peaking about 21,000 years ago.",
+                "During the Last Ice Age, global temperatures were significantly colder than today. However, the climate varied greatly by region. In places like California, the average temperatures were indeed cooler but not extremely cold. Estimates suggest that temperatures in parts of California were around 35 degrees Fahrenheit, colder than current averages but not as frigid as in regions closer to the ice sheets. This variance in temperatures across different geographical areas highlights the complexity of the Earth's climate system during ice ages.",
+                     
+                     // Add more texts
             ]
         },
     }
@@ -85,10 +86,10 @@ const button2 = document.getElementById("q2btn");
 const button3 = document.getElementById("q3btn");
 const button4 = document.getElementById("q4btn");
 const slider = document.querySelector(".rs-slider");
-const imagesArray1 = ["https://matt.moses.name/sites/P5/slides/P5_Set1A.png", "https://matt.moses.name/sites/P5/slides/P5_Set1B.png"];
-const imagesArray2 = ["https://matt.moses.name/sites/P5/slides/P5_Set2A.png", "https://matt.moses.name/sites/P5/slides/P5_Set2B.png"];
-const imagesArray3 = ["https://matt.moses.name/sites/P5/slides/P5_Set3A.png"];
-const imagesArray4 = ["https://matt.moses.name/sites/P5/slides/P5_Set4A.png"];
+const imagesArray1 = ["slides/P5_Set1A.png", "slides/P5_Set1B.png"];
+const imagesArray2 = ["slides/P5_Set2A.png", "slides/P5_Set2B.png"];
+const imagesArray3 = ["slides/P5_Set3A.png"];
+const imagesArray4 = ["slides/P5_Set4A.png"];
 
 let previousImages = [];
 
