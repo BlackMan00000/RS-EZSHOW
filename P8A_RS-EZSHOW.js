@@ -4,16 +4,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/sites/P8A/facts1/P8A_facts1_A.jpg',
-                'https://matt.moses.name/slides/TempGraph1.png',
-                'https://matt.moses.name/slides/TempGraph2.png',
+                'facts1/P8A_facts1_A.jpg',
+                'facts1/P8A_facts1_B.jpg',
+                'facts1/P8A_facts1_C.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
                  "The Mara River, a vital waterway in East Africa, stretches approximately 395 kilometers (245 miles). It traverses through Kenya and Tanzania, playing a crucial ecological role in the Mara and Serengeti ecosystems. This river is essential for the region's wildlife, supporting a diverse range of species, including the famous wildebeest migration. The Mara River's significance extends beyond ecology; it's a key resource for local communities, providing water for domestic and agricultural use. However, it faces threats from pollution, overuse, and climate change, highlighting the need for sustainable management practices.",
-                "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
-                "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
-        // Add more texts
+                 "UNESCO World Heritage Sites are globally recognized landmarks or areas of significant cultural, historical, scientific, or ecological value, protected under international treaties. Distributed worldwide, they include wonders like Australia's Great Barrier Reef, historical marvels like the Roman Colosseum, and cultural treasures like the Pyramids of Giza in Egypt. In Africa, these sites also encompass the rich wildlife of Tanzania's Serengeti National Park, the historic city of Timbuktu in Mali, and the symbolic Robben Island in South Africa. Each site reflects humanity's diverse heritage and the planet's natural beauty, preserving them for future generations.",
+                 "The great wildebeest migration, a spectacular natural event in Africa, involves over 1.5 million wildebeest, zebras, and gazelles. This circular journey spans the Serengeti National Park in Tanzania and the Maasai Mara National Reserve in Kenya. Beginning around January, they start in the southern Serengeti, where calving season takes place. By July, they move north to the Maasai Mara, crossing perilous rivers teeming with crocodiles. Around October, they start their return southward, driven by the cycle of rainfall and greener pastures. This cyclical journey is an awe-inspiring display of nature's rhythm and survival.",
+                 // Add more texts
             ]
         },
     }
@@ -85,10 +85,10 @@ const button2 = document.getElementById("q2btn");
 const button3 = document.getElementById("q3btn");
 const button4 = document.getElementById("q4btn");
 const slider = document.querySelector(".rs-slider");
-const imagesArray1 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set1A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set1B.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set1C.png"];
-const imagesArray2 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set2A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set2B.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set2C.png"];
-const imagesArray3 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set3A.png", "https://matt.moses.name/sites/P8A/slides/P8A_Set3B.png"];
-const imagesArray4 = ["https://matt.moses.name/sites/P8A/slides/P8A_Set4A.png"];
+const imagesArray1 = ["slides/P8A_Set1A.png", "slides/P8A_Set1B.png", "slides/P8A_Set1C.png"];
+const imagesArray2 = ["slides/P8A_Set2A.png", "slides/P8A_Set2B.png", "slides/P8A_Set2C.png"];
+const imagesArray3 = ["slides/P8A_Set3A.png", "slides/P8A_Set3B.png"];
+const imagesArray4 = ["slides/P8A_Set4A.png"];
 
 let previousImages = [];
 
