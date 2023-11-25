@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/sites/P8B/facts1/P8B_facts1_A.jpg',
-                'https://matt.moses.name/slides/TempGraph1.png',
-                'https://matt.moses.name/slides/TempGraph2.png',
+                'https://matt.moses.name/sites/P8C/facts1/P8C_facts1_A.jpg',
+                'https://matt.moses.name/sites/P8C/facts1/P8C_facts1_B.jpg',
+                'https://matt.moses.name/sites/P8C/facts1/P8C_facts1_C.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
                  "The African Serengeti ecosystem is a complex web of symbiotic relationships. Termites, crucial in nutrient cycling, enrich the soil, promoting plant growth. This in turn feeds herbivores like zebras and giraffes, with zebras grazing on lower grasses and giraffes browsing high tree leaves, thus maintaining plant diversity. Top predators, such as lions, keep herbivore populations in check, preventing overgrazing. Elephants, as ecosystem engineers, shape the landscape by uprooting trees, creating open grasslands that benefit smaller grazing animals and their predators. Each species, from the smallest termite to the largest elephant, plays a vital role in sustaining this delicate balance.",
-                "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
-                "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
+                "Wild habitat regions in Africa are endangered primarily due to human activities like deforestation, poaching, and climate change, which lead to loss of biodiversity and habitat degradation. To preserve these regions, efforts are being made such as establishing protected areas, enforcing anti-poaching laws, promoting sustainable land use, and engaging in reforestation projects. Additionally, international cooperation and funding, as well as local community involvement in conservation, play a crucial role in preserving Africa's unique and diverse ecosystems.",
+                "Africa boasts diverse biomes, including deserts like the Sahara, savannas, rainforests, and wetlands. These varying ecosystems support a rich array of wildlife. Seasons greatly influence animal migration patterns, especially in savannas. In the Serengeti, for instance, the dry and wet seasons dictate the Great Migration of wildebeest, zebras, and other species in search of water and grazing land. Similarly, in the Okavango Delta, seasonal flooding attracts wildlife from arid regions. These migrations are crucial for maintaining ecological balance, supporting predator-prey relationships, and ensuring the survival of numerous species across Africa's unique landscapes.",
         // Add more texts
             ]
         },
