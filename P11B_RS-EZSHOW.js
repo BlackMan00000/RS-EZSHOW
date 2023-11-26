@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'facts1/P11B_facts1_A.jpg',
-                'facts1/P11B_facts1_B.jpg',
-                'facts1/P11B_facts1_C.jpg',
+                'https://matt.moses.name/sites/P11B/facts1/P11B_Facts1_A.jpg',
+                'https://matt.moses.name/sites/P11B/facts1/P11B_Facts1_B.jpg',
+                'https://matt.moses.name/sites/P11B/facts1/P11B_Facts1_C.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
-                 "Temp text 1",
-                "Temp Text 2",
-                "Temp text 3",
+                 "Africa's "water towers" refer to mountainous regions that are crucial for water collection and storage. These high-altitude areas receive significant rainfall and often host large forests, which act as natural sponges, absorbing and slowly releasing water. This process maintains the flow of rivers and streams, ensuring water supply during dry periods. These water towers are vital for sustaining diverse ecosystems, providing essential habitat for numerous species, and supporting agriculture and human populations. Their health is critical for maintaining the continent's water cycle, biodiversity, and the well-being of millions who depend on them for survival.",
+                "Protected areas in Africa, shown here in light blue shading, encompass national parks, reserves, and sanctuaries, and they harbor a wealth of biodiversity and ecosystems. Africa's "water towers," being vital sources of water, play a crucial role in sustaining these areas. They regulate water flow into rivers and lakes within these protected regions, ensuring consistent water availability, which is essential for wildlife, plant life, and maintaining ecological balance. By providing reliable water sources, these water towers support diverse habitats, aiding in conservation efforts and helping to mitigate the impacts of climate change and human activity on these crucial natural sanctuaries.",
+                "Africa experiences diverse seasonal changes due to its vast size and varied geography. Generally, the continent has two main seasons: wet and dry. The wet season, marked by heavy rains, is crucial for replenishing rivers, lakes, and groundwater. This season is driven by the movement of the Intertropical Convergence Zone, bringing moisture-laden winds. The dry season sees reduced rainfall and higher temperatures, leading to evaporation and decreased water levels. The water cycle in Africa is characterized by these seasonal shifts, with water towers playing a key role in storing and gradually releasing water, thus maintaining the flow in rivers and supporting ecosystems throughout the year.",
         // Add more texts
             ]
         },
@@ -85,10 +85,10 @@ const button2 = document.getElementById("q2btn");
 const button3 = document.getElementById("q3btn");
 const button4 = document.getElementById("q4btn");
 const slider = document.querySelector(".rs-slider");
-const imagesArray1 = ["slides/P11AB_Set1A.png", "slides/P11AB_Set1B.png", "slides/P11AB_Set1C.png"];
-const imagesArray2 = ["slides/P11AB_Set2A.png", "slides/P11AB_Set2B.png", "slides/P11AB_Set2C.png"];
-const imagesArray3 = ["slides/P11AB_Set3A.png", "slides/P11AB_Set3B.png", "slides/P11AB_Set3C.png", "slides/P11AB_Set3D.png"];
-const imagesArray4 = ["slides/P11AB_Set4A.png", "slides/P11AB_Set4B.png", "slides/P11AB_Set4C.png"];
+const imagesArray1 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set1A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set1B.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set1C.png"];
+const imagesArray2 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set2A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set2B.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set2C.png"];
+const imagesArray3 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set3A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set3B.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set3C.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set3D.png"];
+const imagesArray4 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set4A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set4B.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set4C.png"];
 
 let previousImages = [];
 
@@ -146,7 +146,7 @@ button1.addEventListener("click", () => {
 });
 
 button2.addEventListener("click", () => {
-    btnSounds.play('Machine');
+	btnSounds.play('Machine');
   const image = getRandomImage(imagesArray2);
   previousImages.push(image);
   updateSliderWithAnimation(image);
@@ -176,7 +176,7 @@ button3.addEventListener("click", () => {
 });
 
 button4.addEventListener("click", () => {
-    btnSounds.play('Machine');
+	btnSounds.play('Machine');
   const image = getRandomImage(imagesArray4);
   previousImages.push(image);
   updateSliderWithAnimation(image);
