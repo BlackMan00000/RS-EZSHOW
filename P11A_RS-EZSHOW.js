@@ -85,8 +85,8 @@ const button2 = document.getElementById("q2btn");
 const button3 = document.getElementById("q3btn");
 const button4 = document.getElementById("q4btn");
 const slider = document.querySelector(".rs-slider");
-const imagesArray1 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set1A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set1B.png"];
-const imagesArray2 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set2A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set2B.png"];
+const imagesArray1 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set1A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set1B.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set1C.png"];
+const imagesArray2 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set2A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set2B.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set2C.png"];
 const imagesArray3 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set3A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set3B.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set3C.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set3D.png"];
 const imagesArray4 = ["https://matt.moses.name/sites/P11A/slides/P11AB_Set4A.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set4B.png", "https://matt.moses.name/sites/P11A/slides/P11AB_Set4C.png"];
 
