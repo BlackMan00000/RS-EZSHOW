@@ -24,6 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const textDisplay = document.getElementById('textDisplay');
         const backButton = document.getElementById('backButton');
         const forwardButton = document.getElementById('forwardButton');
+        const backBTN = document.getElementById('backBTN');
+        const fwdBTN = document.getElementById('fwdkBTN');
 
         const images = slideshows[SHOW].images;
         const texts = slideshows[SHOW].texts;
@@ -42,16 +44,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Instead of disabling buttons, hide them when at the slide boundaries
             if (currentIndex === 0) {
-                backButton.style.display = 'none';
+                backBTN.style.display = 'none';
             } else {
                 // Adjust display type based on your page layout (inline-block, block, etc.)
-                backButton.style.display = 'inline-block';
+                backBTN.style.display = 'inline-block';
             }
             
             if (currentIndex === images.length - 1 || currentIndex === texts.length - 1) {
-                forwardButton.style.display = 'none';
+                fwdkBTN.style.display = 'none';
             } else {
-                forwardButton.style.display = 'inline-block';
+                fwdkBTN.style.display = 'inline-block';
             }
         }
 
