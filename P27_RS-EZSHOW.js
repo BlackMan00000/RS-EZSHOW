@@ -47,13 +47,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 backBTN.style.display = 'none';
             } else {
                 // Adjust display type based on your page layout (inline-block, block, etc.)
-                backBTN.style.display = 'inline-block';
+                backBTN.style.display = 'block';
             }
             
             if (currentIndex === images.length - 1 || currentIndex === texts.length - 1) {
                 fwdBTN.style.display = 'none';
             } else {
-                fwdBTN.style.display = 'inline-block';
+                fwdBTN.style.display = 'block';
             }
         }
 
