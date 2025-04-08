@@ -51,9 +51,9 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             
             if (currentIndex === images.length - 1 || currentIndex === texts.length - 1) {
-                fwdkBTN.style.display = 'none';
+                fwdBTN.style.display = 'none';
             } else {
-                fwdkBTN.style.display = 'inline-block';
+                fwdBTN.style.display = 'inline-block';
             }
         }
 
