@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const backButton = document.getElementById('backButton');
         const forwardButton = document.getElementById('forwardButton');
         const backBTN = document.getElementById('backBTN');
-        const fwdBTN = document.getElementById('fwdkBTN');
+        const fwdBTN = document.getElementById('fwdBTN');
 
         const images = slideshows[SHOW].images;
         const texts = slideshows[SHOW].texts;
