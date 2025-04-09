@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         1: {
             images: [
                 'https://matt.moses.name/sites/P27/slides/Slide1.png',
-                'https://matt.moses.name/slides/SoilGraph3_cut.jpg',
+                'https://matt.moses.name/sites/P27/slides/Slide2.png',
                 'https://matt.moses.name/slides/SoilGraph4_cut.jpg',
                 // Add more image paths for slideshow 1
             ],
