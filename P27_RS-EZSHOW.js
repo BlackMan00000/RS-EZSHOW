@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
             images: [
                 'https://matt.moses.name/sites/P27/slides/Slide1.png',
                 'https://matt.moses.name/sites/P27/slides/Slide2.png',
-                'https://matt.moses.name/sites/P27/slides/Slide2.png',
+                'https://matt.moses.name/sites/P27/slides/Slide3.png',
                 // Add more image paths for slideshow 1
             ],
             texts: [
