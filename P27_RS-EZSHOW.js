@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/slides/SoilGraph2_cut.jpg',
+                'https://matt.moses.name/sites/P27/slides/Slide1.png',
                 'https://matt.moses.name/slides/SoilGraph3_cut.jpg',
                 'https://matt.moses.name/slides/SoilGraph4_cut.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
-                "The African savannahs feature vast grasslands with sporadic trees, thriving in well-drained, nutrient-rich soils. However, overgrazing, deforestation, and poor land management can lead to desertification, turning fertile land into barren desert. A healthy soil ecosystem comprises: 1) Organic matter providing nutrients; 2) Soil microbes, including bacteria and fungi, supporting decomposition and nutrient cycling; and 3) Soil structure, ensuring water retention and root penetration.",
+                "By the late 1860s, waves of Italian immigrants—many from coastal villages near Genoa—arrived in San Francisco, bringing with them generations of fishing knowledge. They built boats in the tradition of their homeland, known among them as silenas, but later more widely called San Francisco feluccas. These small, lateen-rigged sailing vessels were perfectly suited to the rough waters of the Bay, combining seaworthiness with the skill of their owners. The felucca soon became the dominant vessel in San Francisco’s growing fishing fleet. One notable admirer, author Jack London, recalled his time as a young “oyster pirate” aboard a felucca in his writings.",
                 "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
                 "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
                 // Add more texts
