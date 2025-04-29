@@ -4,15 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/sites/P2A/facts1/P2A_facts1_A.jpg',
-                'https://matt.moses.name/sites/P2A/facts1/P2A_facts1_B.jpg',
-                'https://matt.moses.name/slides/TempGraph2.png',
+                'facts1/P2A_facts1_A.jpg',
+                'facts1/P2A_facts1_B.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
                 "The Cretaceous period, from about 145 to 66 million years ago, featured a rich variety of flora. This era was notable for the significant rise of flowering plants (angiosperms), which rapidly diversified and became dominant in many ecosystems, introducing a range of shapes, sizes, and colors. Gymnosperms such as conifers, cycads, and ginkgoes continued to be important, although their dominance waned compared to earlier periods. Ferns and horsetails were also widespread, forming dense undergrowths in forests. This diverse vegetation supported various herbivorous dinosaurs and significantly influenced the ecosystems. The period's end, marked by a mass extinction, profoundly altered plant life, especially favoring the evolution and dominance of flowering plants.",
                 "Volcanism played a significant role in the demise of the dinosaurs through massive eruptions in the Deccan Traps, a large volcanic province in modern-day India. These eruptions, occurring roughly 66 million years ago, coincided with the Cretaceous-Paleogene (K-Pg) extinction event. The vast quantities of lava, ash, and gas, especially sulfur and carbon dioxide, released into the atmosphere had profound climatic impacts. This led to substantial cooling, acid rain, and disrupted ecosystems, weakening dinosaur populations and making them more vulnerable to other catastrophic events, like the Chicxulub asteroid impact.",
-                "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
         // Add more texts
             ]
         },
@@ -85,10 +83,10 @@ const button2 = document.getElementById("q2btn");
 const button3 = document.getElementById("q3btn");
 const button4 = document.getElementById("q4btn");
 const slider = document.querySelector(".rs-slider");
-const imagesArray1 = ["https://matt.moses.name/sites/P2A/slides/P2AB_Set2A.png", "https://matt.moses.name/sites/P2A/slides/P2AB_Set1B.png"];
-const imagesArray2 = ["https://matt.moses.name/sites/P2A/slides/P2AB_Set2A.png"];
-const imagesArray3 = ["https://matt.moses.name/sites/P2A/slides/P2AB_Set3A.png", "https://matt.moses.name/sites/P2A/slides/P2AB_Set3B.png"];
-const imagesArray4 = ["https://matt.moses.name/sites/P2A/slides/P2AB_Set4A.png"];
+const imagesArray1 = ["slides/P2AB_Set2A.png", "slides/P2AB_Set1B.png"];
+const imagesArray2 = ["slides/P2AB_Set2A.png"];
+const imagesArray3 = ["slides/P2AB_Set3A.png", "slides/P2AB_Set3B.png"];
+const imagesArray4 = ["slides/P2AB_Set4A.png"];
 
 let previousImages = [];
 
@@ -146,7 +144,7 @@ button1.addEventListener("click", () => {
 });
 
 button2.addEventListener("click", () => {
-	btnSounds.play('Machine');
+    btnSounds.play('Machine');
   const image = getRandomImage(imagesArray2);
   previousImages.push(image);
   updateSliderWithAnimation(image);
@@ -176,7 +174,7 @@ button3.addEventListener("click", () => {
 });
 
 button4.addEventListener("click", () => {
-	btnSounds.play('Machine');
+    btnSounds.play('Machine');
   const image = getRandomImage(imagesArray4);
   previousImages.push(image);
   updateSliderWithAnimation(image);
