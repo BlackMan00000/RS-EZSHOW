@@ -64,7 +64,7 @@ function initializeSlideshow() {
     
    }
 
-   const show2Button = document.getElementById('page2down');
+   const show2Button = document.getElementById('page2Down');
     show2Button.addEventListener('click', function() {
         btnSounds.play('ArrowFAST');
         setTimeout(() => {
