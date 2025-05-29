@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const slideshows = {
         1: {
             images: [
-                'https://matt.moses.name/sites/P13/facts1/P13_facts1_A.jpg',
-                'https://matt.moses.name/slides/TempGraph1.png',
-                'https://matt.moses.name/slides/TempGraph2.png',
+                'https://matt.moses.name/P13B/facts1/P13B_facts1_A.jpg',
+                'https://matt.moses.name/P13B/facts1/P13B_facts1_B.jpg',
+                'https://matt.moses.name/P13B/facts1/P13B_facts1_C.jpg',
                 // Add more image paths for slideshow 1
             ],
             texts: [
-                 "Deforestation in the Amazon rainforest, often driven by logging, agriculture, and urban expansion, poses a critical threat to global biodiversity and climate stability. This vast rainforest, known as Earth's 'lungs', plays a key role in carbon storage, helping mitigate climate change. Loss of this habitat endangers countless species and indigenous communities. Organizations combat this issue through reforestation projects, advocacy for sustainable practices, and supporting indigenous rights. Efforts also include international cooperation and policy-making aimed at conservation. The Amazon's preservation is vital for maintaining global ecological balance and climate health.",
-                "Desertification intensifies the dry season, leading to prolonged droughts, reduced water availability, and harsher conditions. This exacerbates soil degradation, diminishes vegetation cover, and disrupts ecosystems. As a result, the natural resilience of the environment decreases, making recovery during wet seasons more difficult and furthering the desertification cycle.",
-                "After full desertification, a landscape transforms into barren, arid terrain with minimal vegetation. Fertile soils become compacted, eroded, or sandy, losing their productivity. Water sources like lakes and rivers may dry up. Native wildlife diminishes or migrates elsewhere. Once-lush regions become reminiscent of deserts, with shifting sand dunes, cracked ground, and limited biodiversity.",
+                "Rainforests formed over millions of years in warm, wet regions near the equator, where heavy rainfall and stable temperatures allowed dense vegetation to thrive. Rich soils, abundant water, and consistent sunlight supported the growth of diverse plant life, creating layered forests. Rainforests aren’t found everywhere because most of Earth’s land doesn’t have the right climate—temperate and polar regions are too dry or cold. Only areas with high rainfall, warmth, and stable conditions, such as the Amazon, Congo, and Southeast Asia, can support true rainforests.",
+                "The main causes of rainforest deforestation are logging for timber, clearing land for cattle ranching, and large-scale agriculture (especially palm oil and soy plantations). Mining, infrastructure development, and urban expansion also contribute. These activities destroy habitats, reduce biodiversity, and release stored carbon, harming the planet’s climate and wildlife. Much deforestation is driven by global demand for beef, soy, palm oil, and other commodities.",
+                "People in the United States can help limit rainforest threats by eating less beef, choosing products certified as sustainable like FSC or Rainforest Alliance, and reducing paper and wood use. Supporting Indigenous communities, donating to conservation groups, and advocating for protective policies also make a difference. Everyday actions such as recycling, buying responsibly, and spreading awareness help protect rainforests and reduce the demand that drives deforestation worldwide.",
         // Add more texts
             ]
         },
@@ -64,7 +64,7 @@ function initializeSlideshow() {
     
    }
 
-   const show2Button = document.getElementById('page2Down');
+   const show2Button = document.getElementById('downToFacts2');
     show2Button.addEventListener('click', function() {
         btnSounds.play('ArrowFAST');
         setTimeout(() => {
